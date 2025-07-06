@@ -1,0 +1,146 @@
+.fordiv1{
+           
+            width:300px;
+            box-shadow: 4px 4px 4px grey;
+          
+        }
+        .forimg{
+            margin-top: 50px;;
+            margin-left: 20px;;
+            display: inline-block;
+            width:200px;
+        }
+        
+        h4{
+           margin-top: 30px;
+           margin-left: 50px;;
+           margin-bottom: 5px;;
+ 
+           
+        }
+        P{
+margin-left: 70px;;
+color: green;
+font-weight: bold;
+
+        }
+        button{
+margin-left: 30px;;
+margin-bottom: 10px;;
+        }
+
+        .button2{
+            color: black
+            background-color: darkgrey;
+            padding:10px;
+            border-radius:5px;
+            margin-left:10px;
+            cursor: pointer;
+
+        }
+        .button1{
+            margin-left: 20px;
+            color: white;
+            background-color: black;
+            padding:11px;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+        .button1:hover{
+             background-color: darkgrey;
+            color: black;
+        }
+        .button2:hover{
+           
+            background-color: black;
+            color: white;
+        }
+        .grid{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 150px;
+               margin-left: 190px;
+         
+        }
+        h2{
+            text-align: center;
+            font-weight: bold
+            margin-top: 50px;
+            font-family:Arial;
+           
+            text-shadow: 1px 1px 1px grey;
+            margin-bottom:0px;
+        }
+        span{
+            background-color: lightgrey;
+            padding:7px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px grey;
+
+        }
+        h5{
+            text-align: center;
+            font-weight: bold;
+            text-shadow: 0.25px 0.25px 0.25px grey;;
+            color: green;
+        }
+       
+.header{
+    display: flex;
+    flex-direction: row;
+
+   
+
+}
+.leftsection{
+    background-color: grey;
+    width:370px;
+    margin-left: 30px;
+}
+.rightsection{
+    background-color: grey;
+width: 340px;;
+margin-left: 50px;;
+
+}
+.forsearch{
+           
+            margin-left: 160px;;
+            margin-right: 100px;;
+            margin-top: 38px;
+            border-style: solid;
+            border-color: darkgrey
+            border-width: 1px;
+            padding: 18px;
+            border-radius: 8px;
+            border-width: 3px;
+            box-shadow: 2px 2px 2px grey;
+            margin-bottom:40px;
+            display: inline-block;
+            width:300px;
+
+        }
+        .forsaleimg{
+            width:100%;
+            height:150px;
+        }
+
+        body{
+            background-image: url("images/nikebg.webp");
+            backgroound-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+          
+        }
+        .navbar-link{
+            display: flex;
+           gap:20px;
+           background-color: black;;
+           height: 50px;
+           align-items: center;
+          justify-content: center;;
+
+        }

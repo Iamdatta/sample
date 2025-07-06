@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello</title>
+    </head>
+    <body>
+
+        <button onclick="
+        console.log(`cartvalue:${cartvalue}`);
+
+        ">Show cart value</button>
+
+        <button onclick="
+        cartvalue = cartvalue+1;
+        console.log(`cartvalue:${cartvalue}`);
+        alert(`cartvalue:${cartvalue}`);
+        ">Add to cart</button>
+        <button>Remove from the cart</button>
+        <button onclick="
+        cartvalue = 0;
+        console.log(`cartvalue is reseted: ${cartvalue}`);
+        "> Reset</button>
+    </body>
+    <script>
+        let cartvalue = 0;
+    </script>
+</html>
